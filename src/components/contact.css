@@ -1,0 +1,129 @@
+/* === Base (common styles for both modes) === */
+.contact-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.contact-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.contact-title span {
+  color: var(--accent-color);
+  border-bottom: 4px solid #007f77;
+}
+
+.contact-card {
+  border: 2px solid #007f77;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 127, 119, 0.3);
+  max-height: 500px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column; /* stack icon, title, and text vertically */
+  align-items: center;   /* center everything horizontally */
+  text-align: center;
+  gap: 0.4rem;
+}
+
+.contact-icon {
+  font-size: 1.8rem;
+  color: #007f77;
+}
+
+.contact-item h4 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.contact-item p,
+.contact-item p a {
+  margin: 0;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.contact-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.contact-socials a {
+  font-size: 1.4rem;
+  transition: 0.3s;
+  color: #007f77 !important;
+}
+
+.contact-socials a:hover {
+  transform: scale(1.2);
+}
+
+/* === Dark Mode === */
+body.dark-mode .contact-section {
+  background-color: #000;
+  color: #fff;
+}
+
+body.dark-mode .contact-card {
+  background-color: #111;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 127, 119, 0.4);
+}
+
+body.dark-mode .contact-item h4 {
+  color: #fff;
+}
+
+body.dark-mode .contact-item p,
+body.dark-mode .contact-item p a {
+  color: #007f77;
+}
+
+body.dark-mode .contact-socials a {
+  color: #007f77 !important;
+}
+
+/* === Light Mode === */
+body.light-mode .contact-section {
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+body.light-mode .contact-card {
+  background-color: #fff;
+  color: #111;
+  box-shadow: 0 0 20px rgba(0, 127, 119, 0.15);
+}
+
+body.light-mode .contact-item h4 {
+  color: #111;
+}
+
+body.light-mode .contact-item p,
+body.light-mode .contact-item p a {
+  color: #007f77;
+}
+
+body.light-mode .contact-socials a {
+  color: #007f77 !important;
+}

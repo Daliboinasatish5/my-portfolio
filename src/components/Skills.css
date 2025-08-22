@@ -1,0 +1,104 @@
+/* Skills.css */
+:root {
+  --bg-color: #0e0e0e;       /* Dark background */
+  --card-bg: #111;           /* Card dark background */
+  --highlight-color: #007f77; /* Teal highlight */
+  --text-color: #ffffff;
+}
+
+.skills-section {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.skills-title::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 4px;
+  background: var(--highlight-color);
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* ✅ 4 per row always */
+  gap: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.skill-group {
+  background: var(--card-bg);
+  border: 4px solid var(--highlight-color);
+  border-radius: 15px;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 0 4px 30px rgba(0, 127, 119, 0.25);
+  transition: all 0.3s ease;
+}
+
+.skill-group:hover {
+  box-shadow: 0 0 12px var(--highlight-color), 0 0 25px var(--highlight-color);
+}
+
+.skill-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.skill-icon {
+  font-size: 1.8rem;
+  color: var(--highlight-color);
+}
+
+.skill-group h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--highlight-color);
+}
+
+.skill-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-group ul li {
+  font-size: 1rem;
+  margin: 6px 0;
+  position: relative;
+  padding-left: 14px;
+}
+
+.skill-group ul li::before {
+  content: "•";
+  color: var(--highlight-color);
+  position: absolute;
+  left: 0;
+}
+
+/* ✅ Responsive: stack on smaller screens */
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

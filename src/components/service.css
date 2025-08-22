@@ -1,0 +1,53 @@
+/* src/components/Services.css */
+.services-section {
+  background-color: var(--bg-color);
+  color: white;
+  padding: 10rem 6rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.services-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  
+}
+
+.services-title span {
+  border-bottom: 4px solid #007f77;
+  color: #007f77;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 6rem;
+}
+
+.service-card {
+  background-color: #111;
+  border: 2px solid #007f77;
+  border-radius: 15px;
+  padding: 2rem;
+  transition: 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 127, 119, 0.4);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #007f77;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  color: #007f77;
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: white;
+}

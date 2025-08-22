@@ -1,0 +1,78 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #033632;
+  text-align: center;
+  color: white;
+  padding: 3rem 1rem;
+  margin-top: 80px;
+  font-family: 'Poppins', sans-serif;
+  height: 250px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.logo span {
+  color: #007f77;
+}
+
+.footer-desc {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.footer-desc strong {
+  color: white;
+}
+
+.footer-desc em {
+  display: block;
+  color: #aaa;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.footer-icons a {
+  color: #007f77;
+  transition: 0.3s;
+}
+
+.footer-icons a:hover {
+  transform: scale(1.2);
+}
+
+.resume-btn {
+  margin: 1rem 0;
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  border: 2px solid #007f77;
+  color: #007f77;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #007f77;
+  color: white;
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 1.5rem;
+}

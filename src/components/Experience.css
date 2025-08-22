@@ -1,0 +1,199 @@
+/* src/components/Experience.css */
+
+.experience-section {
+  background-color: var(--bg-color);
+  padding: 6rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: var(--text-color);
+  min-height: 100vh;
+  text-align: center;
+  margin-top: 80px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.experience-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.experience-title span {
+  color: var(--accent-color);
+  border-bottom: 4px solid var(--accent-color);
+}
+
+.experience-card {
+  border: 2px solid var(--accent-color);
+  border-radius: 15px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  padding: 2rem;
+  margin: 2rem auto;
+  font-size: 1rem;
+  max-width: 1000px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 0 15px var(--shadow-color);
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px var(--shadow-hover);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.experience-content {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Image styling */
+.experience-image {
+  flex: 0 0 550px;
+}
+
+.experience-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid var(--accent-color);
+  border-radius: 12px;
+  box-shadow: 0 0 12px var(--accent-color);
+}
+
+.experience-details {
+  flex: 1;
+  min-width: 250px;
+}
+
+.experience-details h4 {
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.experience-details p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.experience-details ul {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.experience-details li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.experience-tools {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tool-tag {
+  background-color: var(--accent-color);
+  color: var(--tag-text);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode (Default) */
+:root {
+  --bg-color: #0a0a0a;
+  --text-color: white;
+  --card-bg: #111;
+  --accent-color: #00e0c6;
+  --tag-text: #111;
+  --shadow-color: rgba(0, 224, 198, 0.3);
+  --shadow-hover: rgba(0, 224, 198, 0.5);
+}
+
+/* Light Mode */
+body.light-mode {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --card-bg: #f8f9fa;
+  --accent-color: #00a085;
+  --tag-text: white;
+  --shadow-color: rgba(0, 160, 133, 0.2);
+  --shadow-hover: rgba(0, 160, 133, 0.4);
+}
+
+/* Light mode specific adjustments */
+body.light-mode .experience-card {
+  border: 2px solid var(--accent-color);
+  background-color: var(--card-bg);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .experience-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+body.light-mode .experience-header {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+body.light-mode .experience-image img {
+  border: 2px solid var(--accent-color);
+  box-shadow: 0 0 12px rgba(0, 160, 133, 0.3);
+}
+
+body.light-mode .tool-tag {
+  background-color: var(--accent-color);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .experience-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .experience-section {
+    padding: 4rem 1rem;
+    font-size: 1.8rem;
+  }
+
+  .experience-card {
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+  }
+
+  .experience-header {
+    font-size: 1.1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
