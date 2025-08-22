@@ -60,8 +60,8 @@ body.light-mode {
 
 .about-img-box {
   width: 100%;
-  max-width: 350px;
-  height: 410px;
+  max-width: 320px;
+  height: 350px;
   border: 2px solid var(--accent-color);
   padding: 0.8rem;
   border-radius: 15px;

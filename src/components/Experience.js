@@ -3,36 +3,44 @@ import "./Experience.css";
 
 const experiences = [
   {
-    company: "KHUB–KIET",
-    role: "Winter Intern – IIITH",
-    image: "/images/IIIT.jpg",
-    position: "Web Developer",
+    company: "KHUB-KIET",
+    role: "Intern",
+    image: "/images/khub.jpg",
+    position: "Junior Developer",
     location: "Remote",
-    duration: "December 5, 2024 – January 5, 2025",
-    project: "TAFEA",
+    duration: "8-months",
+    project: "LMS Platform",
     description: [
-      "Developed and tested the initial version of the platform.",
-      "Built responsive components using React JS and JavaScript.",
-      "Worked on backend using Flask and MongoDB.",
-      "Participated in feedback sessions with mentors."
+    "Designed and developed a full-stack learning platform for courses and notes.",
+
+"Built responsive frontend using React JS for interactive learning modules.",
+
+"Implemented backend APIs with node.js and MongoDB for user and content management.",
+
+"Enabled user authentication and personalized dashboards for learners."
     ],
-    tools: ["React JS", "JavaScript", "Flask", "MongoDB"]
+    tools: ["Node.js","React","MongoDB"]
   },
     {
-    company: "KHUB–KIET",
+    company: "RCTS",
     role: "Winter Intern – IIITH",
-    image: "/images/IIIT.jpg",
+    image: "/images/IIIT2.jpg",
     position: "Web Developer",
-    location: "Remote",
+    location: "Oniste",
     duration: "December 5, 2024 – January 5, 2025",
-    project: "TAFEA",
+    project: "Classlog",
     description: [
-      "Developed and tested the initial version of the platform.",
-      "Built responsive components using React JS and JavaScript.",
-      "Worked on backend using Flask and MongoDB.",
-      "Participated in feedback sessions with mentors."
+      "Built an AI-powered classroom assistant to support Teach for India fellows in managing large classrooms.",
+
+"Implemented computer vision and NLP for class recording, transcription, and student response analysis.",
+
+"Designed real-time analytics dashboard to track engagement and adapt teaching strategies dynamically.",
+,
+"Automated quiz generation, lecture planning, and participation logging to reduce manual effort.",
+
+"Delivered insights to help bridge educational disparities and enhance student learning outcomes."
     ],
-    tools: ["React JS", "JavaScript", "Flask", "MongoDB"]
+    tools: ["React JS", "node.js", "opencv","MongoDB"]
   },
    {
     company: "KHUB–KIET",

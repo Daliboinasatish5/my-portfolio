@@ -21,7 +21,8 @@ function Navbar({ isLight, toggleTheme }) {
 
 <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
-        <a href="/resume.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="/images/career_5.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">Resume</a>
+
         <button onClick={toggleTheme} className="theme-btn">
           {isLight ? "🌙" : "☀️"}
         </button>

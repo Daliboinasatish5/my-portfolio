@@ -16,14 +16,14 @@ function Contact() {
             <FaEnvelope className="contact-icon" />
             <div>
               <h4>Email</h4>
-              <p><a href="mailto:satish@gmail.com">satish@gmail.com</a></p>
+              <p><a href="mailto:satishdaliboina@gmail.com">satishdaliboina@gmail.com</a></p>
             </div>
           </div>
           <div className="contact-item">
             <FaPhone className="contact-icon" />
             <div>
               <h4>Phone</h4>
-              <p><a href="tel:+919999999999">+91 9999999999</a></p>
+              <p><a href="tel:+919959905751">+91 9959905751</a></p>
             </div>
           </div>
           <div className="contact-item">
@@ -35,9 +35,9 @@ function Contact() {
           </div>
         </div>
         <div className="contact-socials">
-          <a href="https://github.com" target="_blank" rel="noreferrer"><FaGithub /></a>
+          <a href="https://github.com/Daliboinasatish5" target="_blank" rel="noreferrer"><FaGithub /></a>
           <a href="mailto:satish@gmail.com"><MdEmail /></a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/satish-daliboina-32a59a28a" target="_blank" rel="noreferrer"><FaLinkedin /></a>
           <a href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /></a>
         </div>
       </div>

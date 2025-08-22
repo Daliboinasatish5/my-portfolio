@@ -35,14 +35,14 @@ const projectData = [
     techStack: ["React", "Node.js", "Socket.io", "MongoDB"],
     github: "https://github.com/yourusername/chat-app",
   },
-    {
-    name: "compiler",
-    title: "compiler3",
-    description: `A chat app with WebSocket support for real-time messaging. Includes private rooms and message persistence.`,
-    image: "/images/compiler",
-    techStack: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/yourusername/chat-app",
-  },
+  //   {
+  //   name: "compiler",
+  //   title: "compiler3",
+  //   description: `A chat app with WebSocket support for real-time messaging. Includes private rooms and message persistence.`,
+  //   image: "/images/compiler",
+  //   techStack: ["React", "Node.js", "MongoDB"],
+  //   github: "https://github.com/yourusername/chat-app",
+  // },
    {
     name: "compiler",
     title: "compiler",

@@ -82,13 +82,13 @@ const Home = () => {
         </div>
 
         <div className="social-icons">
-          <a href="https://github.com" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Daliboinasatish5" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href="mailto:youremail@example.com">
+          <a href="mailto:satishdaliboina@gmail.com">
             <FaEnvelope />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/satish-daliboina-32a59a28a" target="_blank" rel="noreferrer">
             <FaLinkedin />
           </a>
         </div>
